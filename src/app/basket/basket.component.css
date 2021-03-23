@@ -1,0 +1,62 @@
+.container__basket {
+  display: flex;
+  flex-direction: column;
+}
+
+.basket-header {
+  font-size: 40px;
+  font-family: Ubuntu, sans-serif;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  text-align: center;
+}
+
+.no-item {
+  font-size: 30px;
+  font-family: Ubuntu, sans-serif;
+  text-align: center;
+}
+
+.basket-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #b5b5b5;
+  font-size: 18px;
+  font-family: Ubuntu, sans-serif;
+  line-height: 22px;
+  margin-top: 15px;
+  padding: 15px;
+}
+
+.basket-item__description {
+  width: calc(100% - 200px);
+  margin: 0;
+}
+
+.basket-item__actions {
+  width: 180px;
+}
+
+.basket-item__input {
+  width: 120px;
+  margin-right: 10px;
+}
+
+.basket-item__delete {
+  width: 48px;
+  height: 48px;
+  background-color: #ff6062;
+  border-radius: 50%;
+  border-width: 0;
+  color: #ffffff;
+  cursor: pointer;
+  padding-top: 5px;
+}
+
+.basket-item__link {
+  color: #135838;
+  margin-top: 15px;
+  text-align: center;
+  text-decoration: none;
+}
